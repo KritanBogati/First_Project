@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.BODYY {
+    background-color: #C1BAA1;
+
+    background-color: #c1baa1;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+
+}
+
+
+.Mainhead {
+    display: flex;
+    background-color: #A59D84;
+    justify-content: center;
+    height: 130px;
+
+}
+
+.imghead img {
+    height: 130px;
+    width: 130px;
+    padding: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+}
+
+.navhead ul {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 50px;
+}
+
+.navhead ul li {
+    margin-left: 100px;
+    display: flex;
+    cursor: pointer;
+}
+
+.navhead ul li:hover {
+    transform: scale(1.5);
+}
+
+.navhead ul li button {
+    background-color: #A59D84;
+    border: 3px solid  #A59D84;
+}
+
+.formhead {
+    justify-content: center;
+    display: flex;
+    margin: 15px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.inputt {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 3px solid #D7D3BF;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    background-color: #D7D3BF;
+}
+
+.inputt input {
+    margin: 5px;
+    padding: 5px;
+    max-width: 200px;
+    border-radius: 30px;
+    border: 3px solid #D7D3BF;
+    background-color: #ECEBDE;
+}
+
+#name {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#mail {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.address {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.inputt button {
+    margin: 5px;
+    padding: 5px;
+}
+
+#age {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+#add {
+    width: 30px;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: black;
+    border: 3px solid #D7D3BF;
+    background-color: #D7D3BF;
+    cursor: pointer;
+
+}
+
+#sub {
+    width: 30px;
+    border-radius: 5px;
+    color: black;
+    border: 3px solid #D7D3BF;
+    background-color: #D7D3BF;
+    cursor: pointer;
+}
+
+#submit {
+    width: 45px;
+    border-radius: 50%;
+    margin-top: -40px;
+    margin-left: 330px;
+    color: #000000;
+    border: 3px solid #D7D3BF;
+    background-color: #D7D3BF;
+    cursor: pointer;
+}
+
+.output {
+    width: 100;
+    text-align: left;
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    
+
+
+}
+
+.outid {
+    margin: 20px;
+    padding: 40px;
+    border: 3px solid #D7D3BF;
+    background-color: #D7D3BF;
+    border-radius: 10px;
+    width: fit-content;
+
+}
+
+.outid button {
+    display: flex;
+    border-radius: 0;
+    width: 30px;
+    margin-top: 10px;
+    color: black;
+    border: 3px solid #D7D3BF;
+    background-color: #D7D3BF;
+    margin-top: 20px;
+    margin-bottom: -30px;
+    cursor: pointer; margin-left: 20px;
+
+
+}
+.outbutt{
+    display: flex;
+}
+#outone{
+    margin-left: -7px;
+}
+
+.detailsdisp {
+    display: flex;;
+    margin-left: 10px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    margin-left: 50%;
+}
+
+.fot {
+    display: flex;
+    justify-content: center;
+}
